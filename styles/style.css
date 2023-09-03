@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 html, body {
     width: 100vw;
     height: 100vh;
@@ -14,7 +19,7 @@ html, body {
 }
 
 body {
-    background: fixed url(imagens/fundo-madeira.jpg) top center no-repeat;
+    background: fixed url(../imagens/fundo-madeira.jpg) top center no-repeat;
     background-size: cover;
 }
 
@@ -29,7 +34,7 @@ main {
     left: 50%;
     width: 275px;
     height: 554px;
-    background: url(imagens/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat;
     transform: translate(-50%, -50%);
 }
 
